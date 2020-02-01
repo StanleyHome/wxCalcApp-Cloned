@@ -1,0 +1,155 @@
+.score-list {
+  display: flex;
+  flex-direction: column;
+  border: 0rpx solid green;
+  padding: 30rpx;
+}
+
+.score-block {
+  width: 100%;
+  display: flex;
+  flex-direction: row;
+  border: 0rpx solid grey;
+}
+
+.score-item {
+  width: 30%;
+  align-items: left;
+  line-height: 72rpx;
+  border: 0rpx solid red;
+}
+
+.container_ {
+  height: 100%;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: space-between;
+  padding: 0rpx 0;
+  box-sizing: border-box;
+}
+
+.p-title {
+  width: 100%;
+  font-size: 54rpx;
+  height: 100%;
+  vertical-align: center;
+  padding-top: 10rpx;
+  background-color: #aaa;
+  display: flex;
+  text-align: center;
+  justify-content: center;
+}
+
+.topView {
+  width: 100%;
+  display: inline-block;
+  height: 8%;
+  border: 0rpx solid green;
+  overflow: hidden;
+}
+
+.mainView {
+  margin: 0rpx auto;
+  vertical-align: top;
+  width: 100%;
+  text-align: left;
+  height: 90%;
+  /** font-size: 26pt;
+ height: 600rpx;
+  border: 1rpx solid green;**/
+  border: 0rpx solid green;
+}
+
+.bottomView {
+  padding-bottom: 0rpx;
+  height: 2%;
+  background-color: #aaa;
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  border-bottom: 0rpx solid #aaa;
+}
+
+page {
+  background-color: #fbf9fe;
+}
+
+::-webkit-scrollbar {
+  width: 0;
+  height: 0;
+  color: transparent;
+}
+
+.rank-item {
+  height: 140rpx;
+  background: #fff;
+  margin-bottom: 8rpx;
+  padding: 20rpx 20rpx 20rpx 20rpx;
+  box-sizing: border-box;
+  position: relative;
+}
+
+.rank-item .rank-img {
+  width: 100rpx;
+  height: 100rpx;
+  float: left;
+  margin-right: 50rpx;
+  position: relative;
+}
+
+.rank-item .rank-img image {
+  position: absolute;
+  border-radius: 50%;
+  width: 100rpx;
+  height: 100rpx;
+  top: 0;
+  left: 0;
+}
+
+.rank-item .rank-name {
+  width: 150rpx;
+  font-size: 32rpx;
+  height: 100rpx;
+  line-height: 100rpx;
+  color: #4e5b65;
+  font-weight: bold;
+  overflow: hidden;
+  text-overflow: ellipsis;
+  white-space: nowrap;
+}
+
+.rank-item .rank-score {
+  height: 100rpx;
+  width: 150rpx;
+  line-height: 100rpx;
+  font-size: 24rpx;
+  color: #d55a4a;
+  position: absolute;
+  text-align: center;
+  bottom: 20rpx;
+  right: 200rpx;
+  overflow: hidden;
+  text-overflow: ellipsis;
+  white-space: nowrap;
+}
+
+.rank-item .rank-uv text {
+  font-size: 28rpx;
+  position: absolute;
+  height: 100rpx;
+  line-height: 100rpx;
+  text-align: center;
+  bottom: 20rpx;
+  right: 30rpx;
+  color: #777;
+}
+
+.rank-item .rank-uv image {
+  position: absolute;
+  width: 100rpx;
+  height: 100rpx;
+  bottom: 20rpx;
+  right: 20rpx;
+}

@@ -1,0 +1,178 @@
+/**index.wxss**/
+
+.topView {
+  width: 100%;
+  display: inline-block;
+}
+
+.userinfo {
+  width: 100%;
+  display: inline-block;
+  flex-direction: column;
+  align-items: left;
+  line-height: 72rpx;
+  background-color: #aaa;
+}
+
+.userBlock {
+  width: 100%;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+}
+
+.userBlock>view {
+  width: 300rpx;
+  display: inline-block;
+  line-height: 72rpx;
+  height: 72rpx;
+}
+
+.topBtn {
+  width: 100%;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  font-size: 12pt;
+}
+
+.topBtn .topItem {
+  width: 150rpx;
+  height: 100rpx;
+  line-height: 100rpx;
+  /**background-color: #aaa;**/
+  text-align: center;
+  margin: 20rpx;
+  border-radius: 5%;
+}
+
+.topBtn .topItemSlt {
+  width: 150rpx;
+  height: 100rpx;
+  line-height: 100rpx;
+  /**background-color: #6699e3 !important;**/
+  text-align: center;
+  margin: 20rpx;
+  border-radius: 5%;
+}
+
+.mainView {
+  vertical-align: center;
+  height: 600rpx;
+  width: 100%;
+  text-align: center;
+  line-height: 300rpx;
+  font-size: 26pt;
+  /**border: 1rpx solid green;**/
+}
+
+.userinfo-avatar {
+  width: 72rpx;
+  height: 72rpx;
+  margin: 10rpx;
+  border-radius: 50%;
+  float: left;
+}
+.userinfo-goldcoin{
+ width: 72rpx;
+  height: 72rpx;
+  margin: 10rpx;
+  border-radius: 10%;
+  float: right;
+}
+.userinfo-tip
+{
+  color: #CCCDCC;
+  font-size: 32rpx;
+  line-height: 90rpx;
+  padding: 0rpx 10rpx;
+}
+.userinfo-nickname {
+  color: #fff;
+  font-size: 12pt;
+  line-height: 90rpx;
+}
+
+.btnView {
+  padding-bottom: 10rpx;
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  border-bottom: 30rpx solid #aaa;
+}
+
+.btnView view {
+  margin: 10rpx auto;
+  width: 96%;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+}
+
+.btnView  .numBtn button {
+  width: 20%;
+  margin: 2rpx;
+}
+
+.btnView view button {
+  width: 30%;
+  margin: 2rpx;
+}
+
+.ansView {
+  margin: 0rpx auto;
+  width: 400rpx;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  font-size: 15pt;
+}
+
+.ansSide {
+  width: 50rpx;
+}
+
+.ansTitle {
+  display: inline-block;
+  justify-content: center;
+  line-height: 30rpx;
+}
+
+.userAns {
+  margin: 0rpx auto;
+  width: 300rpx;
+  height: 130rpx;
+  display: inline-block;
+  justify-content: center;
+  line-height: 130rpx;
+  border-bottom: 1rpx solid green;
+  font-size: 30pt;
+}
+
+.isRightCls {
+  color: darkgreen;
+  height: 130rpx;
+  display: inline-block;
+  justify-content: center;
+  line-height: 130rpx;
+  font-size: 30pt;
+}
+
+.isWrongCls {
+  color: Red;
+  height: 130rpx;
+  display: inline-block;
+  justify-content: center;
+  line-height: 130rpx;
+  font-size: 30pt;
+}
+
+.switchView {
+  text-align: right;
+  padding: 10rpx;
+}
+
+.switchView switch {
+  height: 20rpx;
+}
